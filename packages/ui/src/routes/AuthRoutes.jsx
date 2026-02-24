@@ -26,10 +26,11 @@ const AuthRoutes = {
             path: '/signin',
             element: <SignInPage />
         },
-        {
-            path: '/register',
-            element: <RegisterPage />
-        },
+        // disable register for now, as we only want to allow sign in with SSO
+        // {
+        //     path: '/register',
+        //     element: <RegisterPage />
+        // },
         {
             path: '/verify',
             element: <VerifyEmailPage />
@@ -50,10 +51,11 @@ const AuthRoutes = {
             path: '/rate-limited',
             element: <RateLimitedPage />
         },
-        {
-            path: '/organization-setup',
-            element: <OrganizationSetupPage />
-        },
+        // disable organization setup for now, as we will handle it in the backend and redirect to the appropriate page
+        // {
+        //     path: '/organization-setup',
+        //     element: <OrganizationSetupPage />
+        // },
         {
             path: '/license-expired',
             element: <LicenseExpiredPage />

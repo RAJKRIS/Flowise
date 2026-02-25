@@ -114,3 +114,8 @@ extensions/
 # Only allow apps/oss-app, ignore all other apps
 apps/*/
 !apps/oss-app/
+
+# sqlite database files
+**/*.db
+**/*.sqlite
+**/*.sqlite3

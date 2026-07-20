@@ -67,7 +67,7 @@ export const entities = {
     LoginSession,
     ChannelAccount,
     AgentChannel,
-    ChannelInboundMessage
+    ChannelInboundMessage,
     ScheduleRecord,
     ScheduleTriggerLog
 }

@@ -48,7 +48,6 @@ const Agentflows = () => {
 
     const getAllAgentflows = useApi(chatflowsApi.getAllAgentflows)
     const getBindingsApi = useApi(channelsApi.getChannelBindings)
-    const [view, setView] = useState(localStorage.getItem('flowDisplayStyle') || 'card')
     const [view, setView] = useState(localStorage.getItem('agentFlowDisplayStyle') || 'card')
     const [agentflowVersion, setAgentflowVersion] = useState(localStorage.getItem('agentFlowVersion') || 'v2')
     const [showDeprecationNotice, setShowDeprecationNotice] = useState(true)

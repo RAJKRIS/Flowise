@@ -44,7 +44,6 @@ const Chatflows = () => {
 
     const getAllChatflowsApi = useApi(chatflowsApi.getAllChatflows)
     const getBindingsApi = useApi(channelsApi.getChannelBindings)
-    const [view, setView] = useState(localStorage.getItem('flowDisplayStyle') || 'card')
     const [channelBindingsByFlowId, setChannelBindingsByFlowId] = useState({})
     const [view, setView] = useState(localStorage.getItem('chatFlowDisplayStyle') || 'card')
 
